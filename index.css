@@ -51,22 +51,25 @@ body {
 
 .profile-description {
   color: hsl(0, 0%, 100%);
-  font-size: 0.55rem;
+  font-size: 0.65rem;
   font-weight: 200;
   padding: 0.7rem 1.5rem;
 }
 
-.link {
+p {
   border-radius: 5px;
   background-color: hsl(0, 0%, 20%);
   width: 100%;
   text-align: center;
-  padding: 0.5rem;
+  padding: 0.6rem;
   margin: 0.1rem 1rem;
-}
-
-p {
-  font-size: 0.575rem;
+  font-size: 0.625rem;
   color: hsl(0, 0%, 100%);
   font-weight: 600;
+}
+
+p:hover {
+  background-color: hsl(75, 94%, 57%);
+  cursor: pointer;
+  color: hsl(0, 0%, 12%);
 }
